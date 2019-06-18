@@ -1,0 +1,25 @@
+{
+  "name": "atom-timesheet",
+  "main": "./lib/atom-timesheet",
+  "version": "1.0.0",
+  "description": "An atom package for easier editing of timesheet.txt files.",
+  "keywords": ["timesheet.txt", "timesheet", "timesheettxt"],
+  "activationCommands": {
+  },
+  "repository": "https://github.com/Mozzo1000/atom-timesheet",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "moment": "^2.24.0",
+    "moment-timezone": "^0.5.25"
+  },
+  "configSchema": {
+    "override_timezone":{
+      "type": "string",
+      "default": "",
+      "description": "Override timezone guessing with own string. Needs to be an IANA compatible name. Leave empty to automatically retieve the best timezone for you."
+    }
+  }
+}

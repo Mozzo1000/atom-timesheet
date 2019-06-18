@@ -1,0 +1,7 @@
+{
+  "atom-text-editor": {
+    "ctrl-alt-n": "atom-timesheet:new_entry",
+    "ctrl-alt-s": "atom-timesheet:stop_entry",
+    "ctrl-alt-c": "atom-timesheet:continue_last_entry"
+  }
+}

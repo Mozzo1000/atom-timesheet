@@ -1,0 +1,63 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Timesheet",
+        "submenu": [
+          {
+            "label": "New timesheet",
+            "command": "atom-timesheet:init_file"
+          },
+          {
+            "label": "New entry",
+            "command": "atom-timesheet:new_entry"
+          },
+          {
+            "label": "Stop entry",
+            "command": "atom-timesheet:stop_entry"
+          },
+          {
+            "label": "Continue last entry",
+            "command": "atom-timesheet:continue_last_entry"
+          },
+          {
+            "label": "Add timezone",
+            "command": "atom-timesheet:add_new_timezone"
+          }
+        ]
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "atom-timesheet",
+          "submenu": [
+            {
+              "label": "New timesheet",
+              "command": "atom-timesheet:init_file"
+            },
+            {
+              "label": "New entry",
+              "command": "atom-timesheet:new_entry"
+            },
+            {
+              "label": "Stop entry",
+              "command": "atom-timesheet:stop_entry"
+            },
+            {
+              "label": "Contine last entry",
+              "command": "atom-timesheet:continue_last_entry"
+            },
+            {
+              "label": "Add timezone",
+              "command": "atom-timesheet:add_new_timezone"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
