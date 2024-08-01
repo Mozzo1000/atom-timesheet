@@ -1,5 +1,8 @@
 # atom-timesheet
 
+> [!IMPORTANT]
+> As of december 2022, Atom is no longer being maintained. This project is therefor put into archive mode.
+
 An atom package for editing of [timesheet.txt](https://github.com/scy/timesheet.txt) files.
 Easily create new timesheet files with everything necessary already written for you. Add or stop time entries with keyboard shortcuts.
 
